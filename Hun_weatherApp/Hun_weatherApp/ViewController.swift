@@ -34,7 +34,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.viewDidAppear(animated)
         setupLocation()
     }
-    
+    //위치 프롬포트 
         func setupLocation() {
             locationManager.delegate = self
             locationManager.requestWhenInUseAuthorization()
